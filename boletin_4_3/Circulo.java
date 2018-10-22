@@ -19,17 +19,15 @@ public class Circulo {
     
         public double calcularArea(){
         double area =  PI * Math.pow(radio, 2);
-        return area
+        return area;
         }
         
         public double calcularLonxitude(){
         double perimetro = ((2*PI)*radio);
-        return perimetro
+        return perimetro;
         }
+     
        
-        public double getarea(){
-        return area;
-        }
         
         
 }
