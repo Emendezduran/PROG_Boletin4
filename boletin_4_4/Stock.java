@@ -17,9 +17,8 @@ public class Stock {
     }
     
     public float capacidadstock(){
-        float capacidadPulpo = (pulpo/2); 
-        float capacidadPatatas = (patatas/1);        
-        float capacidadRaciones = ((capacidadPulpo + capacidadPatatas)*3);
+        float capacidadPulpo = (pulpo/2);      
+        float capacidadRaciones = Math.min(capacidadPulpo, patatas)*3;
         int capacidadPersonas = (int) capacidadRaciones;
         return capacidadPersonas;
     } 

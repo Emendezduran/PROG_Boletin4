@@ -22,4 +22,3 @@ public class Boletin_4_4 {
         System.out.println(servicio1.capacidadstock());
     }
 }
-
